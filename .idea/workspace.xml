@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4731c685-2322-41e7-8630-3c3c84c1f0c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/collection/MySort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/collection/map/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacore/src/fileio/DirList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacore/src/fileio/FileMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacore/src/fileio/MyFilenameFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/xieziwei99.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/xieziwei99.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javacore/collection/set/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javacore/collection/set/Bird.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/test/Test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/email/target/" />
@@ -38,15 +37,35 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javacore/src/collection/MySort.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javacore/src/fileio/DirList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-266">
-              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            <state relative-caret-position="285">
+              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javacore/src/fileio/FileMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javacore/src/fileio/MyFilenameFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
-                <element signature="e#1149#1150#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,6 +124,9 @@
         <option value="$PROJECT_DIR$/javacore/src/collection/map/Demo1.java" />
         <option value="$PROJECT_DIR$/test/src/test/Test.java" />
         <option value="$PROJECT_DIR$/javacore/src/collection/MySort.java" />
+        <option value="$PROJECT_DIR$/javacore/src/fileio/DirList.java" />
+        <option value="$PROJECT_DIR$/javacore/src/fileio/FileMethods.java" />
+        <option value="$PROJECT_DIR$/javacore/src/fileio/MyFilenameFilter.java" />
       </list>
     </option>
   </component>
@@ -141,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,7 +187,7 @@
               <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
               <item name="javacore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="fileio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -189,7 +212,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,39 +253,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.MyFilenameFilter">
+    <configuration name="DirList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fileio.DirList" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fileio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fileio.FileMethods" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fileio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFilenameFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fileio.MyFilenameFilter" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fileio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.MySort" />
       <module name="javacore" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.SetDemo1" />
-      <module name="javacore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringInMemory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.StringInMemory" />
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,19 +319,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.TreeSetDemo" />
-      <module name="javacore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EmailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="email" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xzw.email.EmailApplication" />
@@ -305,20 +327,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StringInMemory" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.SetDemo1" />
-      <item itemvalue="Application.TreeSetDemo" />
-      <item itemvalue="Spring Boot.EmailApplication" />
       <item itemvalue="Application.MySort" />
+      <item itemvalue="Application.DirList" />
+      <item itemvalue="Spring Boot.EmailApplication" />
+      <item itemvalue="Application.FileMethods" />
+      <item itemvalue="Application.MyFilenameFilter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyFilenameFilter" />
+        <item itemvalue="Application.FileMethods" />
+        <item itemvalue="Application.DirList" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.MySort" />
-        <item itemvalue="Application.TreeSetDemo" />
-        <item itemvalue="Application.SetDemo1" />
-        <item itemvalue="Application.StringInMemory" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +367,9 @@
       <workItem from="1558846335237" duration="5960000" />
       <workItem from="1559314722876" duration="2470000" />
       <workItem from="1559390549857" duration="3356000" />
-      <workItem from="1559395694014" duration="6315000" />
+      <workItem from="1559395694014" duration="6493000" />
+      <workItem from="1559454408243" duration="2510000" />
+      <workItem from="1559485862372" duration="2568000" />
     </task>
     <task id="LOCAL-00001" summary="java学习（首次提交）">
       <created>1559394797610</created>
@@ -354,11 +378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559394797610</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="排序">
+      <created>1559408859542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559408859542</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68907000" />
+    <option name="totallyTimeSpent" value="74163000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,7 +404,7 @@
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3144705" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32497978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -452,7 +483,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java学习（首次提交）" />
-    <option name="LAST_COMMIT_MESSAGE" value="java学习（首次提交）" />
+    <MESSAGE value="排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="排序" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -623,11 +655,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javacore/src/collection/MySort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        <state relative-caret-position="247">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
             <element signature="e#1149#1150#0" expanded="true" />
             <element signature="e#1176#1177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javacore/src/fileio/DirList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javacore/src/fileio/FileMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javacore/src/fileio/MyFilenameFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
           </folding>
         </state>
       </provider>
