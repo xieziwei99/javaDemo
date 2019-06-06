@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/email/pom.xml" />
+        <option value="$PROJECT_DIR$/javacore_maven/pom.xml" />
       </list>
     </option>
   </component>

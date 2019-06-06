@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="javacore_maven" />
         <module name="email" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="email" target="1.8" />
+      <module name="javacore_maven" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
