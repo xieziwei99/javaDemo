@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4731c685-2322-41e7-8630-3c3c84c1f0c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javacore/src/lambda/Demo1.java" afterDir="false" />
+    <list default="true" id="4731c685-2322-41e7-8630-3c3c84c1f0c0" name="Default Changelist" comment="反射机制">
+      <change afterPath="$PROJECT_DIR$/javacore/src/reflection/ArrayCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacore/src/reflection/ReflectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacore/src/reflection/UserConstructorReflect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/xieziwei99.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/xieziwei99.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,10 +41,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javacore/src/lambda/Demo1.java">
+        <entry file="file://$PROJECT_DIR$/javacore/src/reflection/ReflectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="285">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#227#263#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javacore/src/reflection/UserConstructorReflect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,6 +132,10 @@
         <option value="$PROJECT_DIR$/javacore_maven/src/main/java/colgoogle/MapMakerDemo.java" />
         <option value="$PROJECT_DIR$/javacore/src/concurrent/CountDownLatchDemo.java" />
         <option value="$PROJECT_DIR$/javacore/src/lambda/Demo1.java" />
+        <option value="$PROJECT_DIR$/javacore/src/reflection/ArrayCopy.java" />
+        <option value="$PROJECT_DIR$/javacore/src/reflection/EmployeeClass.java" />
+        <option value="$PROJECT_DIR$/javacore/src/reflection/UserConstructorReflect.java" />
+        <option value="$PROJECT_DIR$/javacore/src/reflection/ReflectionTest.java" />
       </list>
     </option>
   </component>
@@ -167,7 +195,7 @@
               <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
               <item name="javacore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,9 +212,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="search&#9;PSI&#9;JAVA://binarySearchTree.BinarySearchTree#search" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558878018805" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -198,7 +228,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -217,39 +247,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo1">
-    <configuration name="ApplyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.ApplyClass" />
+  <component name="RunManager" selected="Application.UserConstructorReflect">
+    <configuration name="ArrayCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.ArrayCopy" />
       <module name="javacore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplyInter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.ApplyInter" />
-      <module name="javacore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.CountDownLatchDemo" />
-      <module name="javacore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concurrent.*" />
+          <option name="PATTERN" value="reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,12 +274,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapMakerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="colgoogle.MapMakerDemo" />
-      <module name="javacore_maven" />
+    <configuration name="EmployeeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.EmployeeClass" />
+      <module name="javacore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="colgoogle.*" />
+          <option name="PATTERN" value="reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.ReflectionTest" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserConstructorReflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.UserConstructorReflect" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,20 +321,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ApplyInter" />
-      <item itemvalue="Application.ApplyClass" />
-      <item itemvalue="Application.MapMakerDemo" />
-      <item itemvalue="Application.CountDownLatchDemo" />
       <item itemvalue="Application.Demo1" />
       <item itemvalue="Spring Boot.EmailApplication" />
+      <item itemvalue="Application.ArrayCopy" />
+      <item itemvalue="Application.EmployeeClass" />
+      <item itemvalue="Application.ReflectionTest" />
+      <item itemvalue="Application.UserConstructorReflect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserConstructorReflect" />
+        <item itemvalue="Application.ReflectionTest" />
+        <item itemvalue="Application.EmployeeClass" />
+        <item itemvalue="Application.ArrayCopy" />
         <item itemvalue="Application.Demo1" />
-        <item itemvalue="Application.CountDownLatchDemo" />
-        <item itemvalue="Application.MapMakerDemo" />
-        <item itemvalue="Application.ApplyClass" />
-        <item itemvalue="Application.ApplyInter" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +368,7 @@
       <workItem from="1559747303621" duration="3375000" />
       <workItem from="1559794864709" duration="4721000" />
       <workItem from="1559833300449" duration="684000" />
-      <workItem from="1559915285603" duration="501000" />
+      <workItem from="1559915285603" duration="7198000" />
     </task>
     <task id="LOCAL-00001" summary="java学习（首次提交）">
       <created>1559394797610</created>
@@ -368,11 +398,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559812105358</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lambda">
+      <created>1559915923938</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559915923938</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84093000" />
+    <option name="totallyTimeSpent" value="90790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,7 +424,7 @@
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23443815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23443815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -401,14 +438,14 @@
       <window_info anchor="bottom" id="Debug" order="3" type="SLIDING" weight="0.39963505" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32786885" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32664233" />
       <window_info active="true" anchor="bottom" id="REST Client" order="7" weight="0.55656934" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32846716" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32846716" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32664233" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32846716" />
-      <window_info anchor="bottom" id="Spring" order="13" weight="0.32786885" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.32664233" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32846716" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -469,7 +506,9 @@
     <MESSAGE value="排序" />
     <MESSAGE value="文件基础操作" />
     <MESSAGE value="随便写写" />
-    <option name="LAST_COMMIT_MESSAGE" value="随便写写" />
+    <MESSAGE value="lambda" />
+    <MESSAGE value="反射机制" />
+    <option name="LAST_COMMIT_MESSAGE" value="反射机制" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -751,8 +790,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javacore/src/lambda/Demo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="156">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email/mvnw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javacore/src/reflection/ArrayCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javacore/src/reflection/EmployeeClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javacore/src/reflection/UserConstructorReflect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javacore/src/reflection/ReflectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#227#263#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -856,6 +949,7 @@
       </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
+          <last-edited>mycopyright</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
