@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4731c685-2322-41e7-8630-3c3c84c1f0c0" name="Default Changelist" comment="反射机制">
-      <change afterPath="$PROJECT_DIR$/javacore/src/reflection/ArrayCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/reflection/ReflectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/reflection/UserConstructorReflect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/xieziwei99.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/xieziwei99.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="4731c685-2322-41e7-8630-3c3c84c1f0c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/javacore/src/scheduler/ScheduleExecutorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacore/src/scheduler/TimerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,30 +37,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javacore/src/reflection/ReflectionTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javacore/src/scheduler/TimerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="304">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
-                <element signature="e#227#263#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javacore/src/reflection/UserConstructorReflect.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javacore/src/scheduler/ScheduleExecutorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="228">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,6 +132,9 @@
         <option value="$PROJECT_DIR$/javacore/src/reflection/EmployeeClass.java" />
         <option value="$PROJECT_DIR$/javacore/src/reflection/UserConstructorReflect.java" />
         <option value="$PROJECT_DIR$/javacore/src/reflection/ReflectionTest.java" />
+        <option value="$PROJECT_DIR$/javacore/src/scheduler/TimerTest.java" />
+        <option value="$PROJECT_DIR$/javacore/src/scheduler/ScheduleExecuterTest.java" />
+        <option value="$PROJECT_DIR$/javacore/src/scheduler/ScheduleExecutorTest.java" />
       </list>
     </option>
   </component>
@@ -172,6 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,13 +195,12 @@
               <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
               <item name="javacore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reflection" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -217,6 +216,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558878018805" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -247,33 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserConstructorReflect">
-    <configuration name="ArrayCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.ArrayCopy" />
-      <module name="javacore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reflection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.Demo1" />
-      <module name="javacore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ScheduleExecutorTest">
     <configuration name="EmployeeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="reflection.EmployeeClass" />
       <module name="javacore" />
@@ -293,6 +267,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScheduleExecutorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scheduler.ScheduleExecutorTest" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scheduler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scheduler.TimerTest" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scheduler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,20 +321,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo1" />
-      <item itemvalue="Spring Boot.EmailApplication" />
-      <item itemvalue="Application.ArrayCopy" />
       <item itemvalue="Application.EmployeeClass" />
       <item itemvalue="Application.ReflectionTest" />
       <item itemvalue="Application.UserConstructorReflect" />
+      <item itemvalue="Spring Boot.EmailApplication" />
+      <item itemvalue="Application.TimerTest" />
+      <item itemvalue="Application.ScheduleExecutorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScheduleExecutorTest" />
+        <item itemvalue="Application.TimerTest" />
         <item itemvalue="Application.UserConstructorReflect" />
         <item itemvalue="Application.ReflectionTest" />
         <item itemvalue="Application.EmployeeClass" />
-        <item itemvalue="Application.ArrayCopy" />
-        <item itemvalue="Application.Demo1" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +368,9 @@
       <workItem from="1559747303621" duration="3375000" />
       <workItem from="1559794864709" duration="4721000" />
       <workItem from="1559833300449" duration="684000" />
-      <workItem from="1559915285603" duration="7198000" />
+      <workItem from="1559915285603" duration="7478000" />
+      <workItem from="1559965760551" duration="1091000" />
+      <workItem from="1559966931416" duration="2865000" />
     </task>
     <task id="LOCAL-00001" summary="java学习（首次提交）">
       <created>1559394797610</created>
@@ -405,11 +407,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559915923938</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="反射机制">
+      <created>1559923368152</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559923368152</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90790000" />
+    <option name="totallyTimeSpent" value="95026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,8 +433,8 @@
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23443815" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49817517" visible="true" weight="0.24171382" />
+      <window_info id="Structure" order="1" sideWeight="0.5018248" side_tool="true" weight="0.24171382" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -461,7 +470,7 @@
       <window_info anchor="right" id="Maven" order="10" weight="0.32983023" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30962005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2384802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -471,18 +480,18 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3970856" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39963505" />
+      <window_info anchor="bottom" auto_hide="true" x="18" y="282" width="1237" height="217" id="Run" order="2" type="SLIDING" weight="0.3959854" />
+      <window_info anchor="bottom" id="Debug" order="3" type="SLIDING" weight="0.39963505" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32786885" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32664233" />
       <window_info active="true" anchor="bottom" id="REST Client" order="7" weight="0.55656934" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32846716" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32846716" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32664233" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32846716" />
-      <window_info anchor="bottom" id="Spring" order="13" weight="0.32786885" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.32664233" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32846716" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -495,7 +504,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32983023" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32983023" />
-      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32983023" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -802,38 +811,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/reflection/ArrayCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/reflection/EmployeeClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/javacore/src/reflection/EmployeeClass.java" />
     <entry file="file://$PROJECT_DIR$/javacore/src/reflection/UserConstructorReflect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="304">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding>
             <element signature="e#201#202#0" expanded="true" />
             <element signature="e#220#221#0" expanded="true" />
             <element signature="e#207#208#0" expanded="true" />
             <element signature="e#235#236#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javacore/src/reflection/ArrayCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -845,6 +840,30 @@
             <element signature="e#227#263#0" expanded="true" />
             <element signature="e#332#333#0" expanded="true" />
             <element signature="e#351#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javacore/src/scheduler/TimerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javacore/src/scheduler/ScheduleExecutorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
           </folding>
         </state>
       </provider>
