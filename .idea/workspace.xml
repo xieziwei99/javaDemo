@@ -2,13 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4731c685-2322-41e7-8630-3c3c84c1f0c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javacore/src/scheduler/ScheduleExecutorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/scheduler/TimerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacore/src/lambda/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacore_maven/src/test/java/junit5Test/FirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/test/HashCodeAndEquals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/xieziwei99.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/xieziwei99.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/email/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javacore_maven/javacore_maven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javacore_maven/javacore_maven.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javacore_maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javacore_maven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/test/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/test/Test.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/email/target/" />
-    <ignored path="$PROJECT_DIR$/javacore_maven/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,37 +50,8 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javacore/src/scheduler/TimerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javacore/src/scheduler/ScheduleExecutorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding>
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FavoritesManager">
+    <favorites_list name="javaDemo" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,6 +64,8 @@
     <findStrings>
       <find>HashMap</find>
       <find>hashMap</find>
+      <find>process</find>
+      <find>SplitCase</find>
     </findStrings>
     <replaceStrings>
       <replace>treeMap</replace>
@@ -88,55 +76,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/binarySearchTree/src/binarySearchTree/BinarySearchTree.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/javacore_maven/src/test/java/junit5Test/FirstTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/test/src/test/Test.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/simpleDateFormat/src/Test.java" />
-        <option value="$PROJECT_DIR$/simpleDateFormat/src/simpleDateFormat/haha.java" />
-        <option value="$PROJECT_DIR$/simpleDateFormat/src/simpleDateFormat/TestMultiprocess.java" />
-        <option value="$PROJECT_DIR$/simpleDateFormat/src/simpleDateFormat/correct.java" />
-        <option value="$PROJECT_DIR$/simpleDateFormat/src/simpleDateFormat/Test.java" />
-        <option value="$PROJECT_DIR$/simpleDateFormat/src/simpleDateFormat/Correct.java" />
-        <option value="$PROJECT_DIR$/email/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/email/src/main/java/com/xzw/email/util/TestMailing.java" />
-        <option value="$PROJECT_DIR$/email/src/main/java/com/xzw/email/controller/TestMailing.java" />
-        <option value="$PROJECT_DIR$/email/pom.xml" />
-        <option value="$PROJECT_DIR$/email/src/main/java/com/xzw/email/controller/MailingController.java" />
-        <option value="$PROJECT_DIR$/binarySearchTree/src/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/binarySearchTree/src/binarySearchTree/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/test/Test.java" />
-        <option value="$PROJECT_DIR$/alibaba/src/java/Parent.java" />
-        <option value="$PROJECT_DIR$/alibaba/src/code_standards/Parent.java" />
-        <option value="$PROJECT_DIR$/javacore/src/collection/Demo1.java" />
-        <option value="$PROJECT_DIR$/test/src/test/StringInMemory.java" />
-        <option value="$PROJECT_DIR$/javacore/src/collection/list/Demo1.java" />
-        <option value="$PROJECT_DIR$/javacore/src/collection/set/SetDemo1.java" />
-        <option value="$PROJECT_DIR$/javacore/src/collection/set/TreeSetDemo.java" />
-        <option value="$PROJECT_DIR$/javacore/src/collection/map/Demo1.java" />
-        <option value="$PROJECT_DIR$/test/src/test/Test.java" />
-        <option value="$PROJECT_DIR$/javacore/src/collection/MySort.java" />
-        <option value="$PROJECT_DIR$/javacore/src/fileio/DirList.java" />
-        <option value="$PROJECT_DIR$/javacore/src/fileio/FileMethods.java" />
-        <option value="$PROJECT_DIR$/javacore/src/fileio/MyFilenameFilter.java" />
-        <option value="$PROJECT_DIR$/javacore/src/base/Copy.java" />
-        <option value="$PROJECT_DIR$/javacore/src/base/ApplyInter.java" />
-        <option value="$PROJECT_DIR$/javacore/src/base/ApplyClass.java" />
-        <option value="$PROJECT_DIR$/javacore_maven/pom.xml" />
-        <option value="$PROJECT_DIR$/javacore_maven/src/main/java/colgoogle/MapMakerDemo.java" />
-        <option value="$PROJECT_DIR$/javacore/src/concurrent/CountDownLatchDemo.java" />
-        <option value="$PROJECT_DIR$/javacore/src/lambda/Demo1.java" />
-        <option value="$PROJECT_DIR$/javacore/src/reflection/ArrayCopy.java" />
-        <option value="$PROJECT_DIR$/javacore/src/reflection/EmployeeClass.java" />
-        <option value="$PROJECT_DIR$/javacore/src/reflection/UserConstructorReflect.java" />
-        <option value="$PROJECT_DIR$/javacore/src/reflection/ReflectionTest.java" />
-        <option value="$PROJECT_DIR$/javacore/src/scheduler/TimerTest.java" />
-        <option value="$PROJECT_DIR$/javacore/src/scheduler/ScheduleExecuterTest.java" />
-        <option value="$PROJECT_DIR$/javacore/src/scheduler/ScheduleExecutorTest.java" />
-      </list>
-    </option>
+    <setting file="file://$PROJECT_DIR$/binarySearchTree/src/binarySearchTree/BinarySearchTree.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -151,59 +93,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1614" />
-    <option name="height" value="876" />
-  </component>
+  <component name="ProjectId" id="1RP4OaU4an45wu7Ja1tGMlma09A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="false" />
-      <hideEmptyPackages ProjectPane="true" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="javacore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="javacore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="javacore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -218,12 +109,16 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-session-demo/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -232,10 +127,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA\javaDemo\spring-session-demo\src\main\resources" />
       <recent name="E:\IDEA\javaDemo\email\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -247,68 +148,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ScheduleExecutorTest">
-    <configuration name="EmployeeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.EmployeeClass" />
-      <module name="javacore" />
+  <component name="RunManager" selected="JUnit.FirstTest.csvSourceTest">
+    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javacore_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="junit5Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="junit5Test" />
+      <option name="MAIN_CLASS_NAME" value="junit5Test.FirstTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.ReflectionTest" />
-      <module name="javacore" />
+    <configuration name="FirstTest.assertionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javacore_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="junit5Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="junit5Test" />
+      <option name="MAIN_CLASS_NAME" value="junit5Test.FirstTest" />
+      <option name="METHOD_NAME" value="assertionsTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScheduleExecutorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scheduler.ScheduleExecutorTest" />
-      <module name="javacore" />
+    <configuration name="FirstTest.csvSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javacore_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scheduler.*" />
+          <option name="PATTERN" value="junit5Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="junit5Test" />
+      <option name="MAIN_CLASS_NAME" value="junit5Test.FirstTest" />
+      <option name="METHOD_NAME" value="csvSourceTest(java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scheduler.TimerTest" />
-      <module name="javacore" />
+    <configuration name="FirstTest.paramsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javacore_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scheduler.*" />
+          <option name="PATTERN" value="junit5Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="junit5Test" />
+      <option name="MAIN_CLASS_NAME" value="junit5Test.FirstTest" />
+      <option name="METHOD_NAME" value="paramsTest(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserConstructorReflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.UserConstructorReflect" />
-      <module name="javacore" />
+    <configuration name="FirstTest.printRepeatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javacore_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="junit5Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="junit5Test" />
+      <option name="MAIN_CLASS_NAME" value="junit5Test.FirstTest" />
+      <option name="METHOD_NAME" value="printRepeatedTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -320,23 +235,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringSessionDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-session-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xzw.springSessionDemo.SpringSessionDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.EmployeeClass" />
-      <item itemvalue="Application.ReflectionTest" />
-      <item itemvalue="Application.UserConstructorReflect" />
       <item itemvalue="Spring Boot.EmailApplication" />
-      <item itemvalue="Application.TimerTest" />
-      <item itemvalue="Application.ScheduleExecutorTest" />
+      <item itemvalue="Spring Boot.SpringSessionDemoApplication" />
+      <item itemvalue="JUnit.FirstTest" />
+      <item itemvalue="JUnit.FirstTest.printRepeatedTest" />
+      <item itemvalue="JUnit.FirstTest.assertionsTest" />
+      <item itemvalue="JUnit.FirstTest.paramsTest" />
+      <item itemvalue="JUnit.FirstTest.csvSourceTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ScheduleExecutorTest" />
-        <item itemvalue="Application.TimerTest" />
-        <item itemvalue="Application.UserConstructorReflect" />
-        <item itemvalue="Application.ReflectionTest" />
-        <item itemvalue="Application.EmployeeClass" />
+        <item itemvalue="JUnit.FirstTest.csvSourceTest" />
+        <item itemvalue="JUnit.FirstTest.paramsTest" />
+        <item itemvalue="JUnit.FirstTest.assertionsTest" />
+        <item itemvalue="JUnit.FirstTest" />
+        <item itemvalue="JUnit.FirstTest.printRepeatedTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -370,7 +296,22 @@
       <workItem from="1559833300449" duration="684000" />
       <workItem from="1559915285603" duration="7478000" />
       <workItem from="1559965760551" duration="1091000" />
-      <workItem from="1559966931416" duration="2865000" />
+      <workItem from="1559966931416" duration="2993000" />
+      <workItem from="1560134619874" duration="707000" />
+      <workItem from="1561596618822" duration="5530000" />
+      <workItem from="1562037001870" duration="205000" />
+      <workItem from="1562037270823" duration="439000" />
+      <workItem from="1562728299955" duration="2493000" />
+      <workItem from="1562925479620" duration="5451000" />
+      <workItem from="1563265988868" duration="1191000" />
+      <workItem from="1563339746832" duration="767000" />
+      <workItem from="1564795457969" duration="195000" />
+      <workItem from="1564801061400" duration="457000" />
+      <workItem from="1564911372461" duration="879000" />
+      <workItem from="1565066656060" duration="2281000" />
+      <workItem from="1569555372302" duration="178000" />
+      <workItem from="1569555793086" duration="1315000" />
+      <workItem from="1569570911055" duration="6879000" />
     </task>
     <task id="LOCAL-00001" summary="java学习（首次提交）">
       <created>1559394797610</created>
@@ -414,11 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1559923368152</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="scheduler">
+      <created>1559987431849</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559987431849</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,86 +374,21 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49817517" visible="true" weight="0.24171382" />
-      <window_info id="Structure" order="1" sideWeight="0.5018248" side_tool="true" weight="0.24171382" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
-      <window_info anchor="bottom" auto_hide="true" x="18" y="282" width="1237" height="217" id="Run" order="2" type="SLIDING" weight="0.3959854" />
-      <window_info anchor="bottom" id="Debug" order="3" type="SLIDING" weight="0.39963505" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32664233" />
-      <window_info active="true" anchor="bottom" id="REST Client" order="7" weight="0.55656934" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32846716" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32846716" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32664233" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32846716" />
-      <window_info anchor="bottom" id="Spring" order="13" weight="0.32664233" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32846716" />
-      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.2497979" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32983023" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32983023" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32983023" />
-      <window_info anchor="right" id="Maven" order="10" weight="0.32983023" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2384802" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
-      <window_info anchor="bottom" auto_hide="true" x="18" y="282" width="1237" height="217" id="Run" order="2" type="SLIDING" weight="0.3959854" />
-      <window_info anchor="bottom" id="Debug" order="3" type="SLIDING" weight="0.39963505" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32664233" />
-      <window_info active="true" anchor="bottom" id="REST Client" order="7" weight="0.55656934" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32846716" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32846716" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32664233" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32846716" />
-      <window_info anchor="bottom" id="Spring" order="13" weight="0.32664233" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32846716" />
-      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.2497979" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32983023" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32983023" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32983023" />
-      <window_info anchor="right" id="Maven" order="10" weight="0.32983023" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java学习（首次提交）" />
@@ -517,7 +397,8 @@
     <MESSAGE value="随便写写" />
     <MESSAGE value="lambda" />
     <MESSAGE value="反射机制" />
-    <option name="LAST_COMMIT_MESSAGE" value="反射机制" />
+    <MESSAGE value="scheduler" />
+    <option name="LAST_COMMIT_MESSAGE" value="scheduler" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -529,345 +410,6 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/simpleDateFormat/src/simpleDateFormat/haha.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/time/format/DateTimeFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="1717" column="18" selection-start-line="1717" selection-start-column="18" selection-end-line="1717" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpleDateFormat/src/simpleDateFormat/aa.java" />
-    <entry file="file://$PROJECT_DIR$/simpleDateFormat/src/simpleDateFormat/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpleDateFormat/src/simpleDateFormat/Correct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpleDateFormat/src/simpleDateFormat/TestMultiprocess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/email/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/email/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/email/src/main/java/com/xzw/email/controller/MailingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/email/src/main/java/com/xzw/email/EmailApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binarySearchTree/src/binarySearchTree/aa.java" />
-    <entry file="file://$PROJECT_DIR$/binarySearchTree/src/binarySearchTree/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="130" lean-forward="true" selection-start-line="129" selection-start-column="23" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/code_standards/Parent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/test/StringInMemory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/collection/set/TreeSetDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/collection/set/SetDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/collection/map/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/collection/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/fileio/MyFilenameFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/fileio/FileMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/fileio/DirList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/base/Copy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/base/ApplyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/base/ApplyInter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding>
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/collections/google-collections/1.0/google-collections-1.0-sources.jar!/com/google/common/base/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore_maven/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore_maven/src/main/java/colgoogle/MapMakerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/concurrent/CountDownLatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/collection/list/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/collection/MySort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/lambda/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/email/mvnw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/reflection/EmployeeClass.java" />
-    <entry file="file://$PROJECT_DIR$/javacore/src/reflection/UserConstructorReflect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/reflection/ArrayCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/reflection/ReflectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#227#263#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/scheduler/TimerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javacore/src/scheduler/ScheduleExecutorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -931,12 +473,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>javacore_maven</last-edited>
+          <last-edited>javacore</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
