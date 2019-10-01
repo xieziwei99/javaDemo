@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4731c685-2322-41e7-8630-3c3c84c1f0c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/lambda/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore_maven/src/test/java/junit5Test/FirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/test/HashCodeAndEquals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/xieziwei99.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/xieziwei99.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacore/src/simple_examples/Lcm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/email/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore_maven/javacore_maven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javacore_maven/javacore_maven.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore_maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javacore_maven/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/test/Matrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/test/Test.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +105,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -148,7 +130,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest.csvSourceTest">
+  <component name="RunManager">
+    <configuration name="Lcm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simple_examples.Lcm" />
+      <module name="javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simple_examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javacore_maven" />
       <extension name="coverage">
@@ -212,22 +207,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.printRepeatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javacore_maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit5Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit5Test" />
-      <option name="MAIN_CLASS_NAME" value="junit5Test.FirstTest" />
-      <option name="METHOD_NAME" value="printRepeatedTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EmailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="email" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xzw.email.EmailApplication" />
@@ -243,21 +222,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.EmailApplication" />
-      <item itemvalue="Spring Boot.SpringSessionDemoApplication" />
       <item itemvalue="JUnit.FirstTest" />
-      <item itemvalue="JUnit.FirstTest.printRepeatedTest" />
       <item itemvalue="JUnit.FirstTest.assertionsTest" />
       <item itemvalue="JUnit.FirstTest.paramsTest" />
       <item itemvalue="JUnit.FirstTest.csvSourceTest" />
+      <item itemvalue="Spring Boot.EmailApplication" />
+      <item itemvalue="Spring Boot.SpringSessionDemoApplication" />
+      <item itemvalue="Application.Lcm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lcm" />
         <item itemvalue="JUnit.FirstTest.csvSourceTest" />
         <item itemvalue="JUnit.FirstTest.paramsTest" />
         <item itemvalue="JUnit.FirstTest.assertionsTest" />
         <item itemvalue="JUnit.FirstTest" />
-        <item itemvalue="JUnit.FirstTest.printRepeatedTest" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +290,8 @@
       <workItem from="1565066656060" duration="2281000" />
       <workItem from="1569555372302" duration="178000" />
       <workItem from="1569555793086" duration="1315000" />
-      <workItem from="1569570911055" duration="6879000" />
+      <workItem from="1569570911055" duration="7058000" />
+      <workItem from="1569918242550" duration="8251000" />
     </task>
     <task id="LOCAL-00001" summary="java学习（首次提交）">
       <created>1559394797610</created>
@@ -362,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559987431849</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hashcode &amp; junit5">
+      <created>1569598357701</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569598357701</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -398,7 +385,8 @@
     <MESSAGE value="lambda" />
     <MESSAGE value="反射机制" />
     <MESSAGE value="scheduler" />
-    <option name="LAST_COMMIT_MESSAGE" value="scheduler" />
+    <MESSAGE value="hashcode &amp; junit5" />
+    <option name="LAST_COMMIT_MESSAGE" value="hashcode &amp; junit5" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -410,115 +398,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="Copyright.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>javacore</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <last-edited>mycopyright</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
