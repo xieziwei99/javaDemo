@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/javaDemo.iml" filepath="$PROJECT_DIR$/javaDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/javacore/javacore.iml" filepath="$PROJECT_DIR$/javacore/javacore.iml" />
       <module fileurl="file://$PROJECT_DIR$/javacore_maven/javacore_maven.iml" filepath="$PROJECT_DIR$/javacore_maven/javacore_maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleDateFormat/simpleDateFormat.iml" filepath="$PROJECT_DIR$/simpleDateFormat/simpleDateFormat.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4731c685-2322-41e7-8630-3c3c84c1f0c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore/src/simple_examples/Lcm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/leetcode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/vowel_spellchecker/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -130,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Lcm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simple_examples.Lcm" />
       <module name="javacore" />
@@ -144,17 +145,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javacore_maven" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vowel_spellchecker.Solution" />
+      <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="junit5Test.*" />
+          <option name="PATTERN" value="vowel_spellchecker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="junit5Test" />
-      <option name="MAIN_CLASS_NAME" value="junit5Test.FirstTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -222,21 +221,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FirstTest" />
+      <item itemvalue="Application.Lcm" />
       <item itemvalue="JUnit.FirstTest.assertionsTest" />
       <item itemvalue="JUnit.FirstTest.paramsTest" />
       <item itemvalue="JUnit.FirstTest.csvSourceTest" />
       <item itemvalue="Spring Boot.EmailApplication" />
       <item itemvalue="Spring Boot.SpringSessionDemoApplication" />
-      <item itemvalue="Application.Lcm" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Lcm" />
         <item itemvalue="JUnit.FirstTest.csvSourceTest" />
         <item itemvalue="JUnit.FirstTest.paramsTest" />
         <item itemvalue="JUnit.FirstTest.assertionsTest" />
-        <item itemvalue="JUnit.FirstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +290,8 @@
       <workItem from="1569555372302" duration="178000" />
       <workItem from="1569555793086" duration="1315000" />
       <workItem from="1569570911055" duration="7058000" />
-      <workItem from="1569918242550" duration="8251000" />
+      <workItem from="1569918242550" duration="8308000" />
+      <workItem from="1570808096215" duration="466000" />
     </task>
     <task id="LOCAL-00001" summary="java学习（首次提交）">
       <created>1559394797610</created>
@@ -349,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569598357701</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="最小公倍数">
+      <created>1569926842199</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569926842199</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -386,7 +393,9 @@
     <MESSAGE value="反射机制" />
     <MESSAGE value="scheduler" />
     <MESSAGE value="hashcode &amp; junit5" />
-    <option name="LAST_COMMIT_MESSAGE" value="hashcode &amp; junit5" />
+    <MESSAGE value="最小公倍数" />
+    <MESSAGE value="leetcode之单词查询-拼写检查-可替换元音字母" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode之单词查询-拼写检查-可替换元音字母" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
