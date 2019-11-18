@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4731c685-2322-41e7-8630-3c3c84c1f0c0" name="Default Changelist" comment="leetcode-暴躁的书店老板">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/brute_force_method/KnapsackProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/brute_force_method/StableMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/brute_force_method/TSP.java" afterDir="false" />
+    <list default="true" id="4731c685-2322-41e7-8630-3c3c84c1f0c0" name="Default Changelist" comment="蛮力法之0/1背包问题 &amp; TSP问题 &amp; 稳定婚姻匹配问题">
+      <change afterPath="$PROJECT_DIR$/leetcode/src/backtracking/GraphColoring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/backtracking/GuardProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/backtracking/KnapsackProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/backtracking/KnightTour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/backtracking/MazeProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/branchbounding/EightPuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/branchbounding/KnapsackProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/branchbounding/TSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maze.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/test/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/test/Test.class" afterDir="false" />
     </list>
@@ -96,12 +103,16 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IDEA\javaDemo\spring-session-demo\src\main\resources" />
       <recent name="E:\IDEA\javaDemo\email\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEA\javaDemo" />
+      <recent name="E:\IDEA\javaDemo\leetcode\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -121,13 +132,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StableMatching">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="EightPuzzle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="branchbounding.EightPuzzle" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="branchbounding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KnapsackProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="brute_force_method.KnapsackProblem" />
+      <option name="MAIN_CLASS_NAME" value="branchbounding.KnapsackProblem" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="brute_force_method.*" />
+          <option name="PATTERN" value="branchbounding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,25 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="grumpy_bookstore_owner.Solution" />
+    <configuration name="KnightTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.KnightTour" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="grumpy_bookstore_owner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StableMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="brute_force_method.StableMatching" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="brute_force_method.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +173,11 @@
       </method>
     </configuration>
     <configuration name="TSP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="brute_force_method.TSP" />
+      <option name="MAIN_CLASS_NAME" value="branchbounding.TSP" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="brute_force_method.*" />
+          <option name="PATTERN" value="branchbounding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,21 +213,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.KnightTour" />
       <item itemvalue="Application.KnapsackProblem" />
       <item itemvalue="Application.TSP" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.StableMatching" />
+      <item itemvalue="Application.EightPuzzle" />
       <item itemvalue="Spring Boot.EmailApplication" />
       <item itemvalue="Spring Boot.SpringSessionDemoApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StableMatching" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.EightPuzzle" />
         <item itemvalue="Application.TSP" />
         <item itemvalue="Application.KnapsackProblem" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.KnightTour" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +289,15 @@
       <workItem from="1571961982614" duration="5627000" />
       <workItem from="1571972081036" duration="1779000" />
       <workItem from="1571986579629" duration="7035000" />
-      <workItem from="1572482015195" duration="11540000" />
+      <workItem from="1572482015195" duration="11639000" />
+      <workItem from="1573171561417" duration="6074000" />
+      <workItem from="1573189880296" duration="13557000" />
+      <workItem from="1573722715244" duration="17755000" />
+      <workItem from="1573776251070" duration="5759000" />
+      <workItem from="1573783459121" duration="5148000" />
+      <workItem from="1573794746332" duration="5647000" />
+      <workItem from="1574050730629" duration="9076000" />
+      <workItem from="1574073215487" duration="8600000" />
     </task>
     <task id="LOCAL-00001" summary="java学习（首次提交）">
       <created>1559394797610</created>
@@ -364,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571396748851</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="蛮力法之0/1背包问题 &amp; TSP问题 &amp; 稳定婚姻匹配问题">
+      <created>1572518244241</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1572518244241</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -405,12 +431,14 @@
     <MESSAGE value="leetcode之单词查询-拼写检查-可替换元音字母" />
     <MESSAGE value="leetcode-从给定数组中找到 k 个和已知数 x 最接近的数" />
     <MESSAGE value="leetcode-暴躁的书店老板" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode-暴躁的书店老板" />
+    <MESSAGE value="蛮力法之0/1背包问题 &amp; TSP问题 &amp; 稳定婚姻匹配问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="蛮力法之0/1背包问题 &amp; TSP问题 &amp; 稳定婚姻匹配问题" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="Application">
         <watch expression="matrix.a" language="JAVA" />
+        <watch expression="pt.get(2)" />
       </configuration>
     </watches-manager>
   </component>
