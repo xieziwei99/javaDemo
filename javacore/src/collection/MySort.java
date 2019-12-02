@@ -43,15 +43,22 @@ public class MySort {
 
     public static void quickSort(int[] a, int left, int right) {
         if (left < right) {
-            int middle = quickSort_1(a, left, right);
+            int middle = partition(a, left, right);
             quickSort(a, left, middle-1);
             quickSort(a, middle+1, right);
         }
     }
 
-    // 快速排序中一个划分过程
-    public static int quickSort_1(int[] a, int left, int right) {
-        int temp = a[left];     // 作为中间枢轴
+    /**
+     * 快速排序中一个划分过程
+     * @param a 数组
+     * @param left 左值
+     * @param right 右值
+     * @return 划分后的新枢轴
+     */
+    public static int partition(int[] a, int left, int right) {
+        // 作为中间枢轴
+        int temp = a[left];
         while (left < right) {
             // 从右向左，找到第一个比中间枢轴小的，移到left位置
             while (left < right && a[right] >= temp) {

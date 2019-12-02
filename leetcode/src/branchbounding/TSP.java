@@ -17,7 +17,26 @@ public class TSP {
             {8, 9, 2, 3, Integer.MAX_VALUE}     // 顶点4
     };
     private static List<ElementsOfPT> PT = new LinkedList<>();
-    private static int up = 16, down = getLb(new ArrayList<>());
+    private static int up = 0, down = getLb(new ArrayList<>());
+
+    static {
+        // 用贪心法求得TSP问题的一个近似解，作为上界
+        List<Integer> bestPath = new ArrayList<>();
+        bestPath.add(0);
+        while (bestPath.size() < tsp.length) {
+            int start = bestPath.get(bestPath.size()-1);
+            int least = Integer.MAX_VALUE, index = 0;
+            for (int i = 0; i < tsp[start].length; i++) {
+                if (!bestPath.contains(i) && tsp[start][i] < least) {
+                    least = tsp[start][i];
+                    index = i;
+                }
+            }
+            up += least;
+            bestPath.add(index);
+        }
+        up += tsp[bestPath.get(bestPath.size()-1)][0];
+    }
 
     // 得到数组中最小的两个数的和
     private static int getSumOfLeastTwo(int[] a) {

@@ -127,8 +127,8 @@ public class EightPuzzle {
     }
 
     public static void main(String[] args) {
-//        int[][] initBoard = {{1, 0, 3}, {4, 2, 6}, {7, 5, 8}};
-        int[][] initBoard = {{0, 3, 5}, {1, 7, 2}, {8, 4, 6}};
+        int[][] initBoard = {{1, 0, 3}, {4, 2, 6}, {7, 5, 8}};
+//        int[][] initBoard = {{0, 3, 5}, {1, 7, 2}, {8, 4, 6}};
         // 棋盘的走子过程
         List<int[][]> path = new ArrayList<>();
         path.add(initBoard);
