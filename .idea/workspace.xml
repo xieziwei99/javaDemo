@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4731c685-2322-41e7-8630-3c3c84c1f0c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/divideandconquer/LeastK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/divideandconquer/MaxSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/greedy/IntervalScheduling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/greedy/KnapsackProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java技术/java技术.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java技术/src/沙箱_java应用隔离/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/dynamicprogramming/KnapsackProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/dynamicprogramming/WeightedIntervalScheduling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore/src/collection/MySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/javacore/src/collection/MySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/branchbounding/EightPuzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/branchbounding/EightPuzzle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/branchbounding/TSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/branchbounding/TSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +82,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="search&#9;PSI&#9;JAVA://binarySearchTree.BinarySearchTree#search" />
     <property name="TODO_SCOPE" value="All Places" />
@@ -128,20 +127,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntervalScheduling">
-    <configuration name="EightPuzzle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="branchbounding.EightPuzzle" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="branchbounding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="IntervalScheduling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greedy.IntervalScheduling" />
       <module name="leetcode" />
@@ -155,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnapsackProblem (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.KnapsackProblem" />
+    <configuration name="KnapsackProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.KnapsackProblem" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.*" />
+          <option name="PATTERN" value="dynamicprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeastK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="divideandconquer.LeastK" />
-      <module name="leetcode" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="沙箱_java应用隔离.Main" />
+      <module name="java技术" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="divideandconquer.*" />
+          <option name="PATTERN" value="沙箱_java应用隔离.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,6 +173,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="divideandconquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeightedIntervalScheduling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.WeightedIntervalScheduling" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,21 +208,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.EightPuzzle" />
-      <item itemvalue="Application.KnapsackProblem (1)" />
       <item itemvalue="Application.IntervalScheduling" />
       <item itemvalue="Application.MaxSubArray" />
-      <item itemvalue="Application.LeastK" />
+      <item itemvalue="Application.WeightedIntervalScheduling" />
+      <item itemvalue="Application.KnapsackProblem" />
       <item itemvalue="Spring Boot.EmailApplication" />
       <item itemvalue="Spring Boot.SpringSessionDemoApplication" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.WeightedIntervalScheduling" />
+        <item itemvalue="Application.KnapsackProblem" />
         <item itemvalue="Application.IntervalScheduling" />
         <item itemvalue="Application.MaxSubArray" />
-        <item itemvalue="Application.KnapsackProblem (1)" />
-        <item itemvalue="Application.LeastK" />
-        <item itemvalue="Application.EightPuzzle" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +311,11 @@
       <workItem from="1575125809755" duration="3129000" />
       <workItem from="1575174636646" duration="3409000" />
       <workItem from="1575199729356" duration="3514000" />
-      <workItem from="1575280263141" duration="1004000" />
+      <workItem from="1575280263141" duration="1098000" />
+      <workItem from="1576159972942" duration="4796000" />
+      <workItem from="1576195648438" duration="6983000" />
+      <workItem from="1576760410823" duration="2702000" />
+      <workItem from="1584514186477" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="java学习（首次提交）">
       <created>1559394797610</created>
@@ -412,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574120795795</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="分支法 &amp; 贪心法">
+      <created>1575281314021</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1575281314021</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -455,25 +465,54 @@
     <MESSAGE value="leetcode-暴躁的书店老板" />
     <MESSAGE value="蛮力法之0/1背包问题 &amp; TSP问题 &amp; 稳定婚姻匹配问题" />
     <MESSAGE value="回溯法 &amp; 分支限界法" />
-    <option name="LAST_COMMIT_MESSAGE" value="回溯法 &amp; 分支限界法" />
+    <MESSAGE value="分支法 &amp; 贪心法" />
+    <option name="LAST_COMMIT_MESSAGE" value="分支法 &amp; 贪心法" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="477" key="GridCell.Tab.0.bottom" timestamp="1575131351844">
+    <state x="233" y="4" key="#Project_Structure" timestamp="1584514475082">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="477" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1575131351844" />
-    <state width="1237" height="477" key="GridCell.Tab.0.center" timestamp="1575131351844">
+    <state x="233" y="4" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1584514475082" />
+    <state width="1236" height="403" key="GridCell.Tab.0.bottom" timestamp="1584514675541">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="477" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1575131351844" />
-    <state width="1237" height="477" key="GridCell.Tab.0.left" timestamp="1575131351844">
+    <state width="1236" height="403" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1584514675541" />
+    <state width="1236" height="403" key="GridCell.Tab.0.center" timestamp="1584514675541">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="477" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1575131351844" />
-    <state width="1237" height="477" key="GridCell.Tab.0.right" timestamp="1575131351844">
+    <state width="1236" height="403" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1584514675541" />
+    <state width="1236" height="403" key="GridCell.Tab.0.left" timestamp="1584514675541">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="477" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1575131351844" />
+    <state width="1236" height="403" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1584514675541" />
+    <state width="1236" height="403" key="GridCell.Tab.0.right" timestamp="1584514675541">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1236" height="403" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1584514675541" />
+    <state width="398" height="538" key="GridCell.Tab.1.bottom" timestamp="1576164776090">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="398" height="538" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576164776090" />
+    <state width="398" height="538" key="GridCell.Tab.1.center" timestamp="1576164776089">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="398" height="538" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1576164776089" />
+    <state width="398" height="538" key="GridCell.Tab.1.left" timestamp="1576164776089">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="398" height="538" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1576164776089" />
+    <state width="398" height="538" key="GridCell.Tab.1.right" timestamp="1576164776089">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="398" height="538" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1576164776089" />
+    <state x="216" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584514821485">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="216" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.689@0.0.1280.689" timestamp="1584514821485" />
+    <state x="17" y="0" key="new project wizard" timestamp="1584514467804">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="17" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1584514467804" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
